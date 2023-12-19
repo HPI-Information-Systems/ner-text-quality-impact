@@ -1,1 +1,1 @@
-# ner-text-quelity-impact
+# ner-text-quality-impact
