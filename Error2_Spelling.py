@@ -89,4 +89,4 @@ err_per = [0.03, 0.05, 0.10, 0.15, 0.20]
 for val in err_per:
     modified_lines = introduce_spelling_errors(lines, val)
     val = int(val * 100)
-    write_modified_content(modified_lines, 'train_42_{}.txt'.format(val)) # Save file with new name indicating seed number and error percentage
+    write_modified_content(modified_lines, 'train_42_{}_spell.txt'.format(val)) # Save file with new name indicating seed number, error percentage and error type.
