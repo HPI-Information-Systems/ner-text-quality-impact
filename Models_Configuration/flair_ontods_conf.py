@@ -18,7 +18,7 @@ corpus = ColumnCorpus(data_folder, columns, train_file=train_data,
                     dev_file='val_ontonotes_iob.txt',
                     test_file='test_ontonotes_iob.txt')
 
-model_dir = '/mnt/data/dibhad/ontonotes_v5_datasets/ner-ONTOListFLAIR-{}'.format(os.path.splitext(train_data)[0])
+model_dir = '{}'.format(os.path.splitext(train_data)[0])
 
 if not os.path.exists(model_dir):
     os.makedirs(model_dir)
