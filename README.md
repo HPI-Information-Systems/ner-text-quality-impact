@@ -22,7 +22,7 @@ The text file should look like this:
 
 ![alt text](image.png)
 
-## Introducing Errors in train and test sets
+## Introducing Errors in Train and Test Sets
 
 For this study, various noise types has been introduced in the train and test set of a dataset. 
 
@@ -30,10 +30,11 @@ For example, if you want to introduce spelling error in the train set of CoNLL 2
 
 Follow the same steps for all other types of errors.
 
-## Models configurations 
+## Model Configurations 
 
 - Conditional Random Field (CRF): 
-![alt text](image-2.png)
+
+   ![alt text](image-2.png)
 - Flair library (biLSTM + flair embeddings) configuration based on different datasets: https://github.com/flairNLP/flair/blob/master/resources/docs/EXPERIMENTS.md 
 - BERT: 
 
